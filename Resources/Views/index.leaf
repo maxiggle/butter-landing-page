@@ -27,5 +27,15 @@
         <button class="get-started-button">Get Started</button>
       </div>
     </div>
+    <div class="main-content">
+    <div class="hero-text">
+       <div class="hero-heading">
+       <h1>Everything you need to grow your business</h1>
+       </div>
+    <p class="hero-paragraph">Protone does everything you to start and grow your business. Attract client through engaging video content and simplify your sales process</p>
+    <button class="hero-cta-button">Get Started with Protone today</button>
+    </div>
+   
+    </div>
   </body>
 </html>
