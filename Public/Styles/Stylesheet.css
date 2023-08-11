@@ -206,7 +206,7 @@ img, picture, video, canvas, svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh; /* You can adjust this based on your layout needs */
+  height: 30vh; 
  }
 
  .hero-text{
@@ -217,6 +217,7 @@ img, picture, video, canvas, svg {
 
 .hero-paragraph{
   margin: 20px;
+  color: grey;
 }
 
 .hero-heading {
@@ -235,4 +236,62 @@ img, picture, video, canvas, svg {
 
 .hero-cta-button:hover{
   background-color: #e68400;
+}
+
+.card-lunch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-lunch p {
+  margin: 20px;
+  color: #0C30E1;
+  font-size: small;
+}
+
+.landing-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  background-color: red;
+}
+
+.landing-img img{
+  width: 45%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.stack-circle{
+  display: flex;
+  position: absolute;
+  top: 80%;
+  background-color: rgba(255, 255, 255, 0.766);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-stack-circle{
+  display: flex;
+  width: 165px;
+  height: 165px;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.video{
+  width: 100%;
+  height: auto;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
