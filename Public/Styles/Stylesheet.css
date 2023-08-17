@@ -389,6 +389,109 @@ ul{
 }
 }
 
+/* Landing page card design */
+.big-container{
 
+  justify-content: space-between;
+}
+.new-container{
+  display: flex;
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding-left: 125px;
+}
 
+.container-text{
+  display: block;
+  height: 65vh; 
+  width: 50%;
+  background-color: white;
+  padding-top: 45px;
+  font-size: 50px;
+  font-weight: 900;
+  font-display: flex;
+}
 
+.container-text > p:nth-child(2){
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 48px;
+  color: #545454;
+
+}
+
+.container-image{
+  display: flex;
+  height: 65vh; 
+  width: 50%;
+  padding-left: 150px;
+  background-color: rgb(243,246,255);
+  border-top-left-radius:5%;
+  border-bottom-left-radius:5%;
+}
+
+.container-image img{
+ margin-top: 35px;
+ margin-bottom: 35px;
+}
+
+.big-container{
+  display: flex;
+  height: auto;
+  width: 100%
+}
+
+/* client review */
+.blue-tag{
+  height: 119px;
+  width: 5px;
+  background-color: #0C30E1;
+}
+
+.blue-tag-text{
+  height: 80px;
+  width: 400px;
+  padding-left: 48px;
+}
+
+.blue-tag-text p{
+  font-size: 10px;
+  font-weight: 400;
+  color: #858585;
+}
+
+.client-review{
+  padding-top: 48px;
+}
+.avatar-container{
+display: flex;
+background-color: #0C30E1;
+}
+
+.avatar-container p {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: black;
+  background-color: red;
+}
+ 
+#client-name{
+  font-size: 5px;
+}
+.avatar{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.avatar-text{
+  margin-left: 10px;
+}
+
+.sizedbox{
+  height: 10px;
+}
