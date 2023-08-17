@@ -295,16 +295,6 @@ img, picture, video, canvas, svg {
   color: #0C30E1;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -391,12 +381,12 @@ ul{
 
 /* Landing page card design */
 .big-container{
-
   justify-content: space-between;
 }
+
 .new-container{
+  margin-top: 8rem;
   display: flex;
-  background-color: white;
   height: auto;
   width: 100%;
   padding-left: 125px;
@@ -418,7 +408,6 @@ ul{
   font-weight: 600;
   padding-top: 48px;
   color: #545454;
-
 }
 
 .container-image{
@@ -434,25 +423,27 @@ ul{
 .container-image img{
  margin-top: 35px;
  margin-bottom: 35px;
+ 
 }
 
 .big-container{
   display: flex;
   height: auto;
-  width: 100%
+  width: 100%;
 }
 
 /* client review */
 .blue-tag{
   height: 119px;
   width: 5px;
-  background-color: #0C30E1;
+  background-color:#0C30E1;
 }
 
 .blue-tag-text{
-  height: 80px;
+  height: auto;
   width: 400px;
   padding-left: 48px;
+ 
 }
 
 .blue-tag-text p{
@@ -466,21 +457,8 @@ ul{
 }
 .avatar-container{
 display: flex;
-background-color: #0C30E1;
-}
-
-.avatar-container p {
-  padding-left: 10px;
-  padding-top: 5px;
-  font-weight: bold;
-  font-size: 0.8rem;
-  color: black;
-  background-color: red;
 }
  
-#client-name{
-  font-size: 5px;
-}
 .avatar{
   height: 40px;
   width: 40px;
@@ -488,10 +466,29 @@ background-color: #0C30E1;
   border-style: solid;
 }
 
-.avatar-text{
+.avatartext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatartext > p:nth-child(1){
   margin-left: 10px;
+  line-height: 0%;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: black;
+}
+
+
+.avatartext > p:nth-child(2){
+  margin-top: 12px;
+  margin-left: 12px;
+  line-height: 0%;
+  font-weight: bold;
+  font-size: 0.5rem;
 }
 
 .sizedbox{
-  height: 10px;
+  height: 20px;
 }

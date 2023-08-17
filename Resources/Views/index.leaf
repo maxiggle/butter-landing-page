@@ -129,7 +129,6 @@
     <div class="protone-cta">
       <p>See protone in action</p>
     </div>
-
     <div class="new-container">
       <div class="big-container">
         <div class="container-text">
@@ -156,11 +155,11 @@
                 <div class="sizedbox"></div>
                 <div class="avatar-container">
                   <div class="avatar">
-                    <img src="Images/client1.svg" alt="client review image" />
+                    <img src="Images/client1.svg" alt="" />
                   </div>
-                  <div class="avatar-text">
+                  <div class="avatartext">
                     <p>Wande Cole</p>
-                    <p>Product sales</p>
+                     <p>Product sales</p>
                   </div>
                 </div>
               </div>
