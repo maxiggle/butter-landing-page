@@ -172,6 +172,53 @@
       </div>
     </div>
     <div>
+      
+    </div>
+    <div class="new-container2">
+      <div class="big-container2">
+       <div class="container-image2">
+          <img src="Images/iphone-mock2.png" alt="iphone mock up image" />
+        </div>
+        <div class="container-text2">
+          <p>
+            Convert clients with your <br />
+            very own custom made <br />
+            video
+          </p>
+          <p>
+            Use protone's magic mode to create your own interactive video in
+            minutes.<br />
+            Edit with ease and share with one click.
+          </p>
+          <div class="client-review2">
+            <div class="blue-tag2">
+              <div class="blue-tag-text2">
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                </p>
+                <div class="sizedbox"></div>
+                
+                <div class="avatar-container2">
+                  <div class="avatar2">
+                    <img src="Images/client1.svg" alt="" />
+                  </div>
+                  <div class="avatartext2">
+                    <p>Wande Cole</p>
+                     <p>Product sales</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div>
       <footer class="footer">
         <div class="container">
           <div class="row">
