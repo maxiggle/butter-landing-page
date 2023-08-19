@@ -217,18 +217,38 @@
     </div>
     <div class="new-container3">
       <img src="Images/iphone-mock.png" alt="iphone mock up image" />
-       <div class="container-text3">
-      <p>Thank you for choosing Protone premium.</p>
-      <p>Enter your email id to receive download link</p>
-      <div class="email-input">
-        <input type="email" placeholder="Enter your email" />
-        <button>Send link</button>
+      <div class="container-text3">
+        <p>Thank you for choosing Protone premium.</p>
+        <p>Enter your email id to receive download link</p>
+        <div class="email-input">
+          <input type="email" placeholder="Enter your email" />
+          <button>Send link</button>
+        </div>
+        <p>
+          By clicking "Send link" you agree to our Terms of
+          <a href="">Service</a> and <a href="">Privacy Policy</a>
+        </p>
+        <div class="flex social-btns">
+          <a class="app-btn blu flex vert" href="http:apple.com">
+            <i class="fab fa-apple"></i>
+            <p>
+              Available on the <br />
+              <span class="big-txt">App Store</span>
+            </p>
+          </a>
+            <div class="sizedbox">
+              
+            </div>
+          <a class="app-btn blu flex vert" href="http:google.com">
+            <i class="fab fa-google-play"></i>
+            <p>
+              Get it on <br />
+              <span class="big-txt">Google Play</span>
+            </p>
+          </a>
+        </div>
       </div>
-       <p>Thank you for choosing Protone premium.</p>
-      <p>Enter your email id to receive download link</p>
     </div>
-    </div>
-   
     <div>
       <footer class="footer">
         <div class="container">

@@ -526,7 +526,7 @@ display: flex;
 
 .new-container3{
   display: flex;
-  margin-top: 8rem;
+  margin-top: 20rem;
   width: 100%;
   justify-content: center;
   background-color: #FCFBFF;
@@ -552,18 +552,27 @@ display: flex;
 .container-text3 > p:nth-child(2){
   font-size: 15px;
   font-weight: 400;
-  padding-top: 10px;
+  padding-top: 30px;
   color: #545454;
   line-height: 0;
 }
 
-.container-text3 > p:nth-child(3){
+.new-container3 > div > p:nth-child(4){
   font-size: 15px;
   font-weight: 400;
-  padding-top: 10px;
+  padding-top: 30px;
   color: #545454;
   line-height: 0;
 }
+
+.new-container3 > div > p:nth-child(5){
+  font-size: 15px;
+  font-weight: 400;
+  color: #545454;
+  line-height: 0;
+}
+
+
 .email-input{ 
   display: flex;
   justify-content: space-between;
@@ -614,6 +623,45 @@ input::placeholder {
   display: flex;
 }
 
+/*download store button*/
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.sizedbox{
+  width: 50px;
+}
+.app-btn {
+  width: 45%;
+  max-width: 160px;
+ margin: 50px 0;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.app-btn.blu {
+  background-color: #101010;
+  transition: background-color 0.25s linear;
+}
+.app-btn.blu:hover {
+  background-color: #454545;
+}
+.app-btn i {
+  width: 20%;
+  text-align: center;
+  font-size: 28px;
+  margin-right: 7px;
+}
+.app-btn .big-txt {
+  font-size: 17px;
+  text-transform: capitalize;
+}
 /* footer */
 .container{
 	max-width: 1170px;
