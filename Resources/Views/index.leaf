@@ -150,16 +150,19 @@
           By clicking "Send link" you agree to our Terms of
           <a href="">Service</a> and <a href="">Privacy Policy</a>
         </p>
-        <div class="sizedbox"></div>
-        <button class="button"> 
-         <img src="Images/apple.png" alt="">
-         <div class="apple-btn-text">
-           <p>Download on the</p>
-            <p>App Store </p>
-         </div>
-       
-       
-        </button>
+        <div class="download-btn">
+        <button class="btn btn--ios btn--radius">
+        <img class="btn__logo" src="#(data.download.appleImg)" alt="">
+  <div class="btn__content btn__content--big">Download</div>
+  <div class="btn__content">on the App Store</div>
+</button>
+<div class="sizedbox"></div>
+<button class="btn btn--android btn--radius">
+ <img class="btn__logo" src="#(data.download.playstoreImg)" alt="">
+  <div class="btn__content btn__content--big">Download</div>
+  <div class="btn__content">on Google Play</div>
+</button>
+        </div>
       </div>
     </div>
     <div>
