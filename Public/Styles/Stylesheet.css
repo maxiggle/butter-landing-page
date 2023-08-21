@@ -531,11 +531,14 @@ display: flex;
   justify-content: center;
   background-color: #FCFBFF;
 }
-.new-container3 img{
+
+body > div.new-container3 > img{
   height: 65vh; 
   margin-top: 35px;
   margin-bottom: 35px;
   padding-left: 280px;
+  border-color: #0C30E1;
+  border-style: solid;
 }
 
 .container-text3{
@@ -628,40 +631,48 @@ input::placeholder {
 .flex {
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 
-.sizedbox{
-  width: 50px;
-}
-.app-btn {
-  width: 45%;
-  max-width: 160px;
- margin: 50px 0;
-  color: #fff;
-  text-align: left;
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: "Lucida Grande", sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-.app-btn.blu {
-  background-color: #101010;
-  transition: background-color 0.25s linear;
-}
-.app-btn.blu:hover {
-  background-color: #454545;
-}
-.app-btn i {
-  width: 20%;
+.button {
+  background-color: black;
+  border: none;
+  color: white;
   text-align: center;
-  font-size: 28px;
-  margin-right: 7px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }
-.app-btn .big-txt {
-  font-size: 17px;
-  text-transform: capitalize;
+
+.button > img {
+  width: 20px;
+  height: auto;
+  background-color: white;
+  margin-right: 10px;
 }
+
+
+.apple-btn-text > p:nth-child(1){
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.apple-btn-text > p:nth-child(2){
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.sizedbox {
+  width: 20px; /* Adjust the width as needed */
+}
+
 /* footer */
 .container{
 	max-width: 1170px;
