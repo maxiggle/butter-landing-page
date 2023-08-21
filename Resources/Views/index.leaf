@@ -151,17 +151,17 @@
           <a href="">Service</a> and <a href="">Privacy Policy</a>
         </p>
         <div class="download-btn">
-        <button class="btn btn--ios btn--radius">
-        <img class="btn__logo" src="#(data.download.appleImg)" alt="">
-  <div class="btn__content btn__content--big">Download</div>
-  <div class="btn__content">on the App Store</div>
-</button>
-<div class="sizedbox"></div>
-<button class="btn btn--android btn--radius">
- <img class="btn__logo" src="#(data.download.playstoreImg)" alt="">
-  <div class="btn__content btn__content--big">Download</div>
-  <div class="btn__content">on Google Play</div>
-</button>
+          <button class="btn btn--ios btn--radius">
+            <img class="btn__logo" src="#(data.download.appleImg)" alt="" />
+            <div class="btn__content btn__content--big">Download</div>
+            <div class="btn__content">on the App Store</div>
+          </button>
+          <div class="sizedbox"></div>
+          <button class="btn btn--android btn--radius">
+            <img class="btn__logo" src="#(data.download.playstoreImg)" alt="" />
+            <div class="btn__content btn__content--big">Download</div>
+            <div class="btn__content">on Google Play</div>
+          </button>
         </div>
       </div>
     </div>
